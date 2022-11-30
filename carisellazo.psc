@@ -16,9 +16,19 @@ Proceso carisellazo
 	//	6) Cada vez que gane debe duplicar el valor ganado.
 	//	7) Cada vez que pierda debe restar el valor apostado.
 	//	8) Al final del juego debe decirle la cantidad de veces que jugó y el dinero que acumuló.
-
 	
-	
+	Escribir "************************************************";
+	Escribir "************* La Programancia **************" ;
+	Escribir "**************** Casino Club ****************";
+	Escribir "************************************************";
+	Escribir "";
+	Escribir "	¡Bienvenido al Juego de la Moneda!";
+	Escribir "";
+	Escribir "	(((Instrucciones)))";
+	Escribir "";
+	Escribir "	Primero debes recargar saldo, luego eliges entre cara o sello. ";
+	Escribir "	Si ganas duplicaré el valor apostado y lo sumare a tu saldo, si pierdes lo descontaré.";
+	Escribir "";
 	
 	
 FinProceso
