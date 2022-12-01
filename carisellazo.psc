@@ -1,5 +1,6 @@
 Proceso carisellazo
-	//	Estas ubicado en Rama Master	
+	//	Estas ubicado en Rama Master
+	//	juan carlos espejo agrego valores aleatorios de la moneda.
 	
 	//	Este algoritmo fue diseñado por:
 	
@@ -32,5 +33,26 @@ Proceso carisellazo
 	Escribir "	Si ganas duplicaré el valor apostado y lo sumare a tu saldo, si pierdes lo descontaré.";
 	Escribir "";
 	
+	Definir rpta, rpta2 Como Caracter;
+	Definir moneda Como Entero;
+	Escribir "";
+	
+	
+	
+		//la siguiente función elige entre cara y sello aleatoriamente
+		moneda <- azar(2) ;
+		si moneda = 1 Entonces
+			rpta2 <- "cara" ;
+		SiNo
+			rpta2 <- "sello";
+		FinSi
+		
+		
+	
+	
+	
 	
 FinProceso
+
+	
+	
